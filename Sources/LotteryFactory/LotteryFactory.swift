@@ -3,8 +3,9 @@ import Foundation
 public class LotteryFactory: NSObject {
 
     private let numOfMembers: Int
-    public init(numberOfMembers: Int) {
-        numOfMembers = numberOfMembers
+
+    public init(numOfMembers: Int) {
+        self.numOfMembers = numOfMembers
     }
 
     public func doLottery() -> Int {
