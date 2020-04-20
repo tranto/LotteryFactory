@@ -13,7 +13,5 @@ final class LotteryFactoryTests: XCTestCase {
         XCTAssertGreaterThanOrEqual(winningNumber, 0)
     }
 
-    static var allTests = [
-        ("testDoLotteryFunc", testDoLotteryFunc),
-    ]
+ 
 }
